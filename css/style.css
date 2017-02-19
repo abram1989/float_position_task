@@ -1,0 +1,145 @@
+body {
+  height:2000px;
+  font-family:'MyriadProRegular';
+}
+ h1 {
+   font-size:1.6em;
+   margin-left:1.3em;
+   margin-top:1.2em;
+   margin-bottom:0.5em;
+   font-weight: 200; 
+  
+}
+ p {
+   font-size:0.75em;
+   margin-top:0.5em;
+   margin-bottom:0.5em;
+   margin-left: 2.2em;
+   margin-right: 2.2em;
+   overflow:hidden;
+}
+ h2 {
+   font-size:1.2em;
+   margin-left:1.5em;
+   margin-top:1.8em;
+   margin-bottom:0em;
+   font-weight: 200; 
+  
+}
+ h3 {
+   float:left;
+   font-size:0.6em;
+   margin-right: 2.5em;
+   margin-left: 2.5em;
+   margin-top:2em;
+   font-weight: 200;
+   text-align: center;
+    
+  
+}
+.central_block{
+	margin-left:30%;
+
+}
+.part_1,
+.part_2,
+.part_3 {
+  float: left;
+  height: 743px;
+  width: 520px;
+  border-style: solid;
+  border-color: black;
+ 
+  
+}
+
+.part_1 {
+  background-color: #EBEBEB;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 5;
+  border-width:2px 3px 2px 3px;
+}
+
+.part_2 {
+  background-color: #CCCCCC;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  z-index: 3;
+  border-width:2px 2px 2px 3px;
+}
+
+.part_3 {
+  background-color: #ACACAC;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-width:3px 3px 3px 3px;
+  z-index: 2;
+}
+.part_1_img_1 {
+  float:left;
+  height:110px;
+  width:205px;
+  margin-left:2em;
+  margin-right:1.3em ;
+}
+.part_1_img_2 {
+  float:right;
+  height:135px;
+  width:135px;
+  margin-right:2em;
+  
+}
+.part_1_img_3, .part_1_img_4, .part_1_img_5,.part_1_img_6 {
+  float:left;
+  height:90px;
+  width:190px;
+  margin-left:2em;
+  margin-right:2em;
+  margin-top:1em;
+   
+}
+
+.bookmark_1,.bookmark_2,.bookmark_3 {
+   height:35px;
+  width:105px;
+  border-style: solid;
+  border-color: black;
+  border-width:2px;
+  position: absolute; 
+  border-radius:0 10px 10px 0;
+  
+}
+.bookmark_1 {
+  background-color:#F68E56;
+  z-index: 5;
+  margin-left:495px;
+  margin-top: 40px;
+}
+.bookmark_2 {
+  background-color:#39B54A;
+  z-index: 4;
+  margin-left:482px;
+  margin-top: 60px;
+  border-width:2px 2px 3px 2px;
+}
+.bookmark_3 {
+  background-color:#00AEEF;
+  z-index: 3;
+  margin-left:470px;
+  margin-top: 80px;
+}
+.social {
+  
+   width: 90px;
+   height: 70px;
+   position: fixed;
+   right: 0;
+   top: 500px;
+ 
+  
+}
+	
